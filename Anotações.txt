@@ -1,0 +1,13 @@
+HTML = Fortação página web;
+/HTML = Fim da página;
+HEAD = Cabeçalho da página;
+/HEAD = Fim do cabeçalho da página;
+body = Corpo do texto;
+/body = fim do texto;
+alert = caixa de alerta;
+var = variavel.
+Prompt = Além de escrever, abre caixa para digitação.
+br = pula linha no html
++ = concatenar (junta texto, variavel...)
+= atribuir valor/texto a variavel
+parseInt = transforma variavel em numero (inteiro)
