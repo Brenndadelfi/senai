@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+      <meta charset="utf-8">  
+      agora estamos fuçando
+
+    </head>
+    <body>
+        <script type= "text/javascript">
+            //declaração variáveis
+            var n1,n2,media
+
+            calculaMedia()
+
+            //declaração de funções
+            //chamada de funções e o trampo todo
+            function calculaMedia()
+            {
+                n1 = parseFloat(prompt("digite a primeira nota: ")) //ler um valor
+                n2 = parseFloat(prompt("digite a segunda nota: "))//le outro valor
+                media = (n1+n2)/2  //calcula media
+                alert("Sua média deu: " + media) //apresenta o resultado
+                document.write("<br>Nota1:" + n1 + "<br>Nota 2:" + n2 + "<br>Média: " + media)
+
+                if(media >= 7)
+                {
+                    alert("Voce passou" + media) //passou
+                    document.write("<br>Voce passou" + media)
+                    
+                    
+                } else
+                {
+                    alert("Voce reprovou " + media) //blé
+                    document.write("<br>Voce reprovou " + media)
+                    
+                }
+                
+
+            }
+           
+
+        
+
+
+
+
+            
+
+            
+        </script>
+
+    </body>
+</html>
