@@ -7,27 +7,36 @@
     </head>
     <body>
         <script type= "text/javascript">
+        //ler 15 numeros inteiros
+
+        var numero, cont, maior, menor
+        numero = parseInt(prompt("digite o numero " + cont))
+        maior = numero
+        menor = numero
 
         
-        var cont = 1000
+        for(cont = 1; cont <= 14; cont++){
 
-        while(cont <= 1999)
-        {
-            if((cont % 11) == 5){
-                alert(cont)
-                document.write("<br>" + cont)
 
+
+            numero = parseInt(prompt("digite o numero " + cont))
+            if(numero > maior)
+            {
+                maior = numero
+                
             }
-            cont++
-        }
 
-        for(cont = 1000; cont<=1999; cont++){
-            if((cont % 11) == 5){
-                alert(cont)
-                document.write("<br>" + cont)
-
+            if(numero < menor)
+            {
+                menor = numero
             }
+
         }
+        //mostrar maior e menor
+
+
+
+        
             
         </script>
 

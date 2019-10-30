@@ -8,10 +8,10 @@
     <body>
         <script type= "text/javascript">
             
-            var nota, n_notas, media, soma, cont
+            var nota, n_notas, media, soma=0, cont
 
             cont = 1
-            parseFloat(soma = 0)
+            //parseFloat(soma = 0)
 
             n_notas = parseInt(prompt("digite o numero de notas: "))
 
@@ -19,7 +19,7 @@
 
             while(cont <= n_notas)
             {
-                notas = parseFloat(prompt("Digite a nota " + cont))
+                nota = parseFloat(prompt("Digite a nota " + cont))
                 soma = soma+nota
                 cont++
             }
