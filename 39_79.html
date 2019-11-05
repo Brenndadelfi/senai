@@ -10,17 +10,36 @@
 <body>
     <script type="text/javascript">
     
-    var numero, resto, par, impar
+    var numero, resto, par = 1, impar = 0, cont
 
-    numero = prompt("Digite o numero")
+
+
+    cont = 1
+
+    while(cont <= 6){
+    numero = parseInt(prompt("Digite o numero"))
+
+
     resto = numero % 2
-    if(resto == 1){
+
+
+
+    if(resto != 0){
+
         impar = impar + numero
 
     } else{
         par = par * numero
     }   
-    document.write("A ")
+    
+
+    cont++
+
+    }
+    document.write("A soma dos numero impares é igual " + impar)
+    document.write("<br>A multiplicação dos numeos pares é igual " + par)
+
+    
 
     
     </script>
