@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <h1>Contadores</h1>
+    
+
+</head>
+
+<body>
+    <script type="text/javascript">
+    
+    var numero, resto, par = 1, impar = 0, cont
+
+
+
+    cont = 1
+
+    while(cont <= 6){
+    numero = parseInt(prompt("Digite o numero"))
+
+
+    resto = numero % 2
+
+
+
+    if(resto != 0){
+
+        impar = impar + numero
+
+    } else{
+        par = par * numero
+    }   
+    
+
+    cont++
+
+    }
+    document.write("A soma dos numero impares é igual " + impar)
+    document.write("<br>A multiplicação dos numeos pares é igual " + par)
+
+    
+
+    
+    </script>
+</body>
+
+</html>
